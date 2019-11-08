@@ -25,9 +25,9 @@ class devops {
     void run(context) {
         script.dir("${context.workDir}") {
                 script.sh """
+                echo Devops
                 echo date
                 """
-            }
         }
     }
 }
